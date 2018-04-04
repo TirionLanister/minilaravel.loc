@@ -11,7 +11,7 @@
 
   </head>
 
-  <body background="images/fon.jpg">
+  <body background="/images/fon.jpg">
   <header>
 
   </header>
@@ -24,12 +24,12 @@
         </div>
 
         <ul id="navbar" class="menu">
-<a  href="#"><img src="logotyp/5_White_logo.png"></a>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="page/add">News</a></li>
-					          <li><a href="page/gallery">Gallery</a></li>
-                     <li><a href="page/TableService">Table Service</a></li>
-					          <li><a href="/">Contact</a></li>
+<a  href="#"><img src="/logotyp/5_White_logo.png"></a>
+                    <li><a href="{{ route('indexpage') }}">Home</a></li>
+                    <li><a href="{{route('articleStore') }}">News</a></li>
+					          <li><a href="{{route('articleGallery') }}">Gallery</a></li>
+                     <li><a href="{{route('articleTable Service') }}">Table Service</a></li>
+
 
 
 
