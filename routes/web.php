@@ -15,7 +15,7 @@
   //  return view('welcome');
 //
 
-Route::get('/','IndexController@index');
+Route::get('/','IndexController@index')->name('indexpage');
 
 Route::get('article/{id}', 'IndexController@show')->name('articleShow');
 
