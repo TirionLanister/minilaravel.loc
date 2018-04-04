@@ -1,0 +1,29 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.menu a img{
+  float:left;
+}
+.menu {
+	float: left;
+}
+
+.menu li {
+	padding: 15px;
+	float: left;
+	list-style: none;
+
+	height: 50px;
+	font-size: 18px;
+	line-height: 20px;
+
+}
+
+.menu li a {
+	color: white !important;
+}
+
+.navbar {
+	background-color:#000000 !important;
+}
